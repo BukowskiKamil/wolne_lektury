@@ -1,0 +1,2634 @@
+{
+	"info": {
+		"_postman_id": "a92b56f5-389f-4aca-a341-f73400ddea6c",
+		"name": "Wolne Lektury",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "24398380"
+	},
+	"item": [
+		{
+			"name": "Podstawowe wyszukiwania",
+			"item": [
+				{
+					"name": "Książka \"Chłopi\"",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Status code is 200\", function () {",
+									"    pm.response.to.have.status(200);",
+									"});"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{adresy}}/books/:ksiazka/",
+							"host": [
+								"{{adresy}}"
+							],
+							"path": [
+								"books",
+								":ksiazka",
+								""
+							],
+							"variable": [
+								{
+									"key": "ksiazka",
+									"value": "chlopi"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Książka \"Boska Komedia\"",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Status code is 200\", function () {",
+									"    pm.response.to.have.status(200);",
+									"});"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{adresy}}/books/:ksiazka/",
+							"host": [
+								"{{adresy}}"
+							],
+							"path": [
+								"books",
+								":ksiazka",
+								""
+							],
+							"variable": [
+								{
+									"key": "ksiazka",
+									"value": "boska-komedia"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Autor Krzysztof Kamil Baczyński",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Status code is 200\", function () {",
+									"    pm.response.to.have.status(200);",
+									"});"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "",
+								"value": "",
+								"type": "text",
+								"disabled": true
+							}
+						],
+						"url": {
+							"raw": "{{adresy}}/authors/:autor",
+							"host": [
+								"{{adresy}}"
+							],
+							"path": [
+								"authors",
+								":autor"
+							],
+							"variable": [
+								{
+									"key": "autor",
+									"value": "krzysztof-kamil-baczynski"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Autor Hans Christian Andersen",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Status code is 200\", function () {",
+									"    pm.response.to.have.status(200);",
+									"});"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "",
+								"value": "",
+								"type": "text",
+								"disabled": true
+							}
+						],
+						"url": {
+							"raw": "{{adresy}}/authors/:autor",
+							"host": [
+								"{{adresy}}"
+							],
+							"path": [
+								"authors",
+								":autor"
+							],
+							"variable": [
+								{
+									"key": "autor",
+									"value": "hans-christian-andersen"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Epoka Akademizm",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Status code is 200\", function () {",
+									"    pm.response.to.have.status(200);",
+									"});"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "",
+								"value": "",
+								"type": "text",
+								"disabled": true
+							}
+						],
+						"url": {
+							"raw": "{{adresy}}/epochs/:epoka/",
+							"host": [
+								"{{adresy}}"
+							],
+							"path": [
+								"epochs",
+								":epoka",
+								""
+							],
+							"variable": [
+								{
+									"key": "epoka",
+									"value": "akademizm"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Epoka Pozytywizm",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Status code is 200\", function () {",
+									"    pm.response.to.have.status(200);",
+									"});"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "",
+								"value": "",
+								"type": "text",
+								"disabled": true
+							}
+						],
+						"url": {
+							"raw": "{{adresy}}/epochs/:epoka/",
+							"host": [
+								"{{adresy}}"
+							],
+							"path": [
+								"epochs",
+								":epoka",
+								""
+							],
+							"variable": [
+								{
+									"key": "epoka",
+									"value": "pozytywizm"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Kategoria \"Artykuł Naukowy\"",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Status code is 200\", function () {",
+									"    pm.response.to.have.status(200);",
+									"});"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "",
+								"value": "",
+								"type": "text",
+								"disabled": true
+							}
+						],
+						"url": {
+							"raw": "{{adresy}}/genres/:kategoria/",
+							"host": [
+								"{{adresy}}"
+							],
+							"path": [
+								"genres",
+								":kategoria",
+								""
+							],
+							"variable": [
+								{
+									"key": "kategoria",
+									"value": "artykul-naukowy"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Kategoria \"Bajka\"",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Status code is 200\", function () {",
+									"    pm.response.to.have.status(200);",
+									"});"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "",
+								"value": "",
+								"type": "text",
+								"disabled": true
+							}
+						],
+						"url": {
+							"raw": "{{adresy}}/genres/:kategoria/",
+							"host": [
+								"{{adresy}}"
+							],
+							"path": [
+								"genres",
+								":kategoria",
+								""
+							],
+							"variable": [
+								{
+									"key": "kategoria",
+									"value": "bajka"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Rodzaj \"dramat\"",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Status code is 200\", function () {",
+									"    pm.response.to.have.status(200);",
+									"});"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "",
+								"value": "",
+								"type": "text",
+								"disabled": true
+							}
+						],
+						"url": {
+							"raw": "{{adresy}}/kinds/:rodzaj/",
+							"host": [
+								"{{adresy}}"
+							],
+							"path": [
+								"kinds",
+								":rodzaj",
+								""
+							],
+							"variable": [
+								{
+									"key": "rodzaj",
+									"value": "dramat"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Rodzaj \"malarstwo\"",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Status code is 200\", function () {",
+									"    pm.response.to.have.status(200);",
+									"});"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "",
+								"value": "",
+								"type": "text",
+								"disabled": true
+							}
+						],
+						"url": {
+							"raw": "{{adresy}}/kinds/:rodzaj/",
+							"host": [
+								"{{adresy}}"
+							],
+							"path": [
+								"kinds",
+								":rodzaj",
+								""
+							],
+							"variable": [
+								{
+									"key": "rodzaj",
+									"value": "malarstwo"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Temat \"ameryka\"",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Status code is 200\", function () {",
+									"    pm.response.to.have.status(200);",
+									"});"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "",
+								"value": "",
+								"type": "text",
+								"disabled": true
+							}
+						],
+						"url": {
+							"raw": "{{adresy}}/themes/:temat/",
+							"host": [
+								"{{adresy}}"
+							],
+							"path": [
+								"themes",
+								":temat",
+								""
+							],
+							"variable": [
+								{
+									"key": "temat",
+									"value": "ameryka"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Temat \"Bóg\"",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Status code is 200\", function () {",
+									"    pm.response.to.have.status(200);",
+									"});"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "",
+								"value": "",
+								"type": "text",
+								"disabled": true
+							}
+						],
+						"url": {
+							"raw": "{{adresy}}/themes/:temat/",
+							"host": [
+								"{{adresy}}"
+							],
+							"path": [
+								"themes",
+								":temat",
+								""
+							],
+							"variable": [
+								{
+									"key": "temat",
+									"value": "bog"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Kolekcja \"Kolekcja zimowa\"",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Status code is 200\", function () {",
+									"    pm.response.to.have.status(200);",
+									"});"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "",
+								"value": "",
+								"type": "text",
+								"disabled": true
+							}
+						],
+						"url": {
+							"raw": "{{adresy}}/collections/:kolekcja/",
+							"host": [
+								"{{adresy}}"
+							],
+							"path": [
+								"collections",
+								":kolekcja",
+								""
+							],
+							"variable": [
+								{
+									"key": "kolekcja",
+									"value": "kolekcja-zimowa-dla-starszych-czytelnikow"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Kolekcja \"Stanisław Lem poleca\"",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Status code is 200\", function () {",
+									"    pm.response.to.have.status(200);",
+									"});"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "",
+								"value": "",
+								"type": "text",
+								"disabled": true
+							}
+						],
+						"url": {
+							"raw": "{{adresy}}/collections/:kolekcja/",
+							"host": [
+								"{{adresy}}"
+							],
+							"path": [
+								"collections",
+								":kolekcja",
+								""
+							],
+							"variable": [
+								{
+									"key": "kolekcja",
+									"value": "stanislaw-lem-poleca"
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Poszczegolne polączenia dwóch filtrów",
+			"item": [
+				{
+					"name": "Książka i daisy",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Status code is 404 (przypadek negatywny)\", function () {",
+									"    pm.response.to.have.status(404);",
+									"});"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "",
+								"value": "",
+								"type": "text",
+								"disabled": true
+							}
+						],
+						"url": {
+							"raw": "{{adresy}}/daisy/books/",
+							"host": [
+								"{{adresy}}"
+							],
+							"path": [
+								"daisy",
+								"books",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Książka i audiobook",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Status code is 404 (przypadek negatywny)\", function () {",
+									"    pm.response.to.have.status(404);",
+									"});"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "",
+								"value": "",
+								"type": "text",
+								"disabled": true
+							}
+						],
+						"url": {
+							"raw": "{{adresy}}/audiobooks/books/",
+							"host": [
+								"{{adresy}}"
+							],
+							"path": [
+								"audiobooks",
+								"books",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Książka i epoka",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Status code is 200\", function () {",
+									"    pm.response.to.have.status(200",
+									"    );",
+									"});"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "",
+								"value": "",
+								"type": "text",
+								"disabled": true
+							}
+						],
+						"url": {
+							"raw": "{{adresy}}/epochs/:epoka/books/",
+							"host": [
+								"{{adresy}}"
+							],
+							"path": [
+								"epochs",
+								":epoka",
+								"books",
+								""
+							],
+							"variable": [
+								{
+									"key": "epoka",
+									"value": "barok"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Książka i gatunki",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Status code is 200\", function () {",
+									"    pm.response.to.have.status(200",
+									"    );",
+									"});"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "",
+								"value": "",
+								"type": "text",
+								"disabled": true
+							}
+						],
+						"url": {
+							"raw": "{{adresy}}/genres/:gatunki/books/",
+							"host": [
+								"{{adresy}}"
+							],
+							"path": [
+								"genres",
+								":gatunki",
+								"books",
+								""
+							],
+							"variable": [
+								{
+									"key": "gatunki",
+									"value": "opowiadanie"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Książka i rodzaje",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Status code is 200\", function () {",
+									"    pm.response.to.have.status(200",
+									"    );",
+									"});"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "",
+								"value": "",
+								"type": "text",
+								"disabled": true
+							}
+						],
+						"url": {
+							"raw": "{{adresy}}/kinds/:rodzaj/books/",
+							"host": [
+								"{{adresy}}"
+							],
+							"path": [
+								"kinds",
+								":rodzaj",
+								"books",
+								""
+							],
+							"variable": [
+								{
+									"key": "rodzaj",
+									"value": "dramat"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Książka i temat",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Status code is 404 (przypadek negatywny)\", function () {",
+									"    pm.response.to.have.status(404);",
+									"});"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "",
+								"value": "",
+								"type": "text",
+								"disabled": true
+							}
+						],
+						"url": {
+							"raw": "{{adresy}}/theme/:temat/parent_books/",
+							"host": [
+								"{{adresy}}"
+							],
+							"path": [
+								"theme",
+								":temat",
+								"parent_books",
+								""
+							],
+							"variable": [
+								{
+									"key": "temat",
+									"value": "aktor"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Książka i kolekcja",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Status code is 404 (przypadek negatywny)\", function () {",
+									"    pm.response.to.have.status(404);",
+									"});"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "",
+								"value": "",
+								"type": "text",
+								"disabled": true
+							}
+						],
+						"url": {
+							"raw": "{{adresy}}/collections/:kolekcja/books/",
+							"host": [
+								"{{adresy}}"
+							],
+							"path": [
+								"collections",
+								":kolekcja",
+								"books",
+								""
+							],
+							"variable": [
+								{
+									"key": "kolekcja",
+									"value": "boy"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Autor i książki",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Status code is 200\", function () {",
+									"    pm.response.to.have.status(200);",
+									"});"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "",
+								"value": "",
+								"type": "text",
+								"disabled": true
+							}
+						],
+						"url": {
+							"raw": "{{adresy}}/authors/:autor/parent_books/",
+							"host": [
+								"{{adresy}}"
+							],
+							"path": [
+								"authors",
+								":autor",
+								"parent_books",
+								""
+							],
+							"variable": [
+								{
+									"key": "autor",
+									"value": "honore-de-balzac"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Autor i audiobooki",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Status code is 200\", function () {",
+									"    pm.response.to.have.status(200);",
+									"});"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "",
+								"value": "",
+								"type": "text",
+								"disabled": true
+							}
+						],
+						"url": {
+							"raw": "{{adresy}}/authors/:autor/audiobooks",
+							"host": [
+								"{{adresy}}"
+							],
+							"path": [
+								"authors",
+								":autor",
+								"audiobooks"
+							],
+							"variable": [
+								{
+									"key": "autor",
+									"value": "honore-de-balzac"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Autor i daisy",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Status code is 200\", function () {",
+									"    pm.response.to.have.status(200);",
+									"});"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "",
+								"value": "",
+								"type": "text",
+								"disabled": true
+							}
+						],
+						"url": {
+							"raw": "{{adresy}}/authors/:autor/daisy/",
+							"host": [
+								"{{adresy}}"
+							],
+							"path": [
+								"authors",
+								":autor",
+								"daisy",
+								""
+							],
+							"variable": [
+								{
+									"key": "autor",
+									"value": "honore-de-balzac"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Autor i epoka",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Status code is 200\", function () {",
+									"    pm.response.to.have.status(200);",
+									"});"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "",
+								"value": "",
+								"type": "text",
+								"disabled": true
+							}
+						],
+						"url": {
+							"raw": "{{adresy}}/authors/:autor/epochs/:epoka/parent_books/",
+							"host": [
+								"{{adresy}}"
+							],
+							"path": [
+								"authors",
+								":autor",
+								"epochs",
+								":epoka",
+								"parent_books",
+								""
+							],
+							"variable": [
+								{
+									"key": "autor",
+									"value": "honore-de-balzac"
+								},
+								{
+									"key": "epoka",
+									"value": "romantyzm"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Autor i gatunek",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Status code is 200\", function () {",
+									"    pm.response.to.have.status(200);",
+									"});"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "",
+								"value": "",
+								"type": "text",
+								"disabled": true
+							}
+						],
+						"url": {
+							"raw": "{{adresy}}/authors/:autor/genres/:gatunek/parent_books/",
+							"host": [
+								"{{adresy}}"
+							],
+							"path": [
+								"authors",
+								":autor",
+								"genres",
+								":gatunek",
+								"parent_books",
+								""
+							],
+							"variable": [
+								{
+									"key": "autor",
+									"value": "honore-de-balzac"
+								},
+								{
+									"key": "gatunek",
+									"value": "powiesc-obyczajowa"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Autor i rodzaje",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Status code is 200\", function () {",
+									"    pm.response.to.have.status(200);",
+									"});"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "",
+								"value": "",
+								"type": "text",
+								"disabled": true
+							}
+						],
+						"url": {
+							"raw": "{{adresy}}/authors/:autor/kinds/:rodzaj/parent_books/",
+							"host": [
+								"{{adresy}}"
+							],
+							"path": [
+								"authors",
+								":autor",
+								"kinds",
+								":rodzaj",
+								"parent_books",
+								""
+							],
+							"query": [
+								{
+									"key": "",
+									"value": "",
+									"disabled": true
+								}
+							],
+							"variable": [
+								{
+									"key": "autor",
+									"value": "honore-de-balzac"
+								},
+								{
+									"key": "rodzaj",
+									"value": "epika"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Autor i temat",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Status code is 404 (przypadek negatywny)\", function () {",
+									"    pm.response.to.have.status(404);",
+									"});"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "",
+								"value": "",
+								"type": "text",
+								"disabled": true
+							}
+						],
+						"url": {
+							"raw": "{{adresy}}/authors/:autor/themes/:temat/parent_books/",
+							"host": [
+								"{{adresy}}"
+							],
+							"path": [
+								"authors",
+								":autor",
+								"themes",
+								":temat",
+								"parent_books",
+								""
+							],
+							"query": [
+								{
+									"key": "",
+									"value": "",
+									"disabled": true
+								}
+							],
+							"variable": [
+								{
+									"key": "autor",
+									"value": "fiodor-dostojewski"
+								},
+								{
+									"key": "temat",
+									"value": "aktor"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Autor i kolekcja",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Status code is 404 (przypadek negatywny)\", function () {",
+									"    pm.response.to.have.status(404);",
+									"});"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "",
+								"value": "",
+								"type": "text",
+								"disabled": true
+							}
+						],
+						"url": {
+							"raw": "{{adresy}}/authors/:autor/collections/:kolekcja/parent_books/",
+							"host": [
+								"{{adresy}}"
+							],
+							"path": [
+								"authors",
+								":autor",
+								"collections",
+								":kolekcja",
+								"parent_books",
+								""
+							],
+							"query": [
+								{
+									"key": "",
+									"value": "",
+									"disabled": true
+								}
+							],
+							"variable": [
+								{
+									"key": "autor",
+									"value": "fiodor-dostojewski"
+								},
+								{
+									"key": "kolekcja",
+									"value": "52-wolne-ksiazki"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Audiobooki i daisy",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Status code is 404 (Przypadek negatywny)\", function () {",
+									"    pm.response.to.have.status(404);",
+									"});"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "",
+								"value": "",
+								"type": "text",
+								"disabled": true
+							}
+						],
+						"url": {
+							"raw": "{{adresy}}/daisy/audiobooks/",
+							"host": [
+								"{{adresy}}"
+							],
+							"path": [
+								"daisy",
+								"audiobooks",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Audiobooki i epoka",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Status code is 200\", function () {",
+									"    pm.response.to.have.status(200);",
+									"});"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "",
+								"value": "",
+								"type": "text",
+								"disabled": true
+							}
+						],
+						"url": {
+							"raw": "{{adresy}}/epochs/:epoka/audiobooks/",
+							"host": [
+								"{{adresy}}"
+							],
+							"path": [
+								"epochs",
+								":epoka",
+								"audiobooks",
+								""
+							],
+							"variable": [
+								{
+									"key": "epoka",
+									"value": "pozytywizm"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Audiobooki i gatunek",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Status code is 200\", function () {",
+									"    pm.response.to.have.status(200);",
+									"});"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "",
+								"value": "",
+								"type": "text",
+								"disabled": true
+							}
+						],
+						"url": {
+							"raw": "{{adresy}}/genres/:gatunek/audiobooks/",
+							"host": [
+								"{{adresy}}"
+							],
+							"path": [
+								"genres",
+								":gatunek",
+								"audiobooks",
+								""
+							],
+							"variable": [
+								{
+									"key": "gatunek",
+									"value": "basn"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Audiobooki i rodzaj",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Status code is 200\", function () {",
+									"    pm.response.to.have.status(200);",
+									"});"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "",
+								"value": "",
+								"type": "text",
+								"disabled": true
+							}
+						],
+						"url": {
+							"raw": "{{adresy}}/kinds/:rodzaj/audiobooks/",
+							"host": [
+								"{{adresy}}"
+							],
+							"path": [
+								"kinds",
+								":rodzaj",
+								"audiobooks",
+								""
+							],
+							"variable": [
+								{
+									"key": "rodzaj",
+									"value": "epika"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Audiobooki i temat",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Status code is 404 (Przypadek negatywny)\", function () {",
+									"    pm.response.to.have.status(404);",
+									"});"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "",
+								"value": "",
+								"type": "text",
+								"disabled": true
+							}
+						],
+						"url": {
+							"raw": "{{adresy}}/themes/:temat/audiobooks/",
+							"host": [
+								"{{adresy}}"
+							],
+							"path": [
+								"themes",
+								":temat",
+								"audiobooks",
+								""
+							],
+							"variable": [
+								{
+									"key": "temat",
+									"value": "bitwa"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Audiobooki i kolekcja",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Status code is 404 (przypadek negatywny)\", function () {",
+									"    pm.response.to.have.status(404);",
+									"});"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "",
+								"value": "",
+								"type": "text",
+								"disabled": true
+							}
+						],
+						"url": {
+							"raw": "{{adresy}}/collections/:kolekcja/audiobooks/",
+							"host": [
+								"{{adresy}}"
+							],
+							"path": [
+								"collections",
+								":kolekcja",
+								"audiobooks",
+								""
+							],
+							"query": [
+								{
+									"key": "",
+									"value": "",
+									"disabled": true
+								}
+							],
+							"variable": [
+								{
+									"key": "kolekcja",
+									"value": "boy"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Epoka i daisy",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Status code is 200\", function () {",
+									"    pm.response.to.have.status(200);",
+									"});"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "",
+								"value": "",
+								"type": "text",
+								"disabled": true
+							}
+						],
+						"url": {
+							"raw": "{{adresy}}/epochs/:epoka/daisy/",
+							"host": [
+								"{{adresy}}"
+							],
+							"path": [
+								"epochs",
+								":epoka",
+								"daisy",
+								""
+							],
+							"variable": [
+								{
+									"key": "epoka",
+									"value": "barok"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Gatunek i daisy",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Status code is 200\", function () {",
+									"    pm.response.to.have.status(200);",
+									"});"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "",
+								"value": "",
+								"type": "text",
+								"disabled": true
+							}
+						],
+						"url": {
+							"raw": "{{adresy}}/genres/:gatunek/daisy/",
+							"host": [
+								"{{adresy}}"
+							],
+							"path": [
+								"genres",
+								":gatunek",
+								"daisy",
+								""
+							],
+							"variable": [
+								{
+									"key": "gatunek",
+									"value": "dialog"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Rodzaj i daisy",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Status code is 200\", function () {",
+									"    pm.response.to.have.status(200);",
+									"});"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "",
+								"value": "",
+								"type": "text",
+								"disabled": true
+							}
+						],
+						"url": {
+							"raw": "{{adresy}}/kinds/:rodzaj/daisy/",
+							"host": [
+								"{{adresy}}"
+							],
+							"path": [
+								"kinds",
+								":rodzaj",
+								"daisy",
+								""
+							],
+							"query": [
+								{
+									"key": "",
+									"value": "",
+									"disabled": true
+								}
+							],
+							"variable": [
+								{
+									"key": "rodzaj",
+									"value": "epika"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Temat i daisy",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Status code is 404 (przypadek negatywny)\", function () {",
+									"    pm.response.to.have.status(404);",
+									"});"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "",
+								"value": "",
+								"type": "text",
+								"disabled": true
+							}
+						],
+						"url": {
+							"raw": "{{adresy}}/themes/:temat/daisy/",
+							"host": [
+								"{{adresy}}"
+							],
+							"path": [
+								"themes",
+								":temat",
+								"daisy",
+								""
+							],
+							"query": [
+								{
+									"key": "",
+									"value": "",
+									"disabled": true
+								}
+							],
+							"variable": [
+								{
+									"key": "temat",
+									"value": "alkohol"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Kolekcja i daisy",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Status code is 404 (przypadek negatywny)\", function () {",
+									"    pm.response.to.have.status(404);",
+									"});"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "",
+								"value": "",
+								"type": "text",
+								"disabled": true
+							}
+						],
+						"url": {
+							"raw": "{{adresy}}/collections/:kolekcja/daisy/",
+							"host": [
+								"{{adresy}}"
+							],
+							"path": [
+								"collections",
+								":kolekcja",
+								"daisy",
+								""
+							],
+							"query": [
+								{
+									"key": "",
+									"value": "",
+									"disabled": true
+								}
+							],
+							"variable": [
+								{
+									"key": "kolekcja",
+									"value": "fantastyka"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Epoka i gatunek",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Status code is 200\", function () {",
+									"    pm.response.to.have.status(200);",
+									"});"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "",
+								"value": "",
+								"type": "text",
+								"disabled": true
+							}
+						],
+						"url": {
+							"raw": "{{adresy}}/genres/:gatunek/epochs/:epoka/parent_books/",
+							"host": [
+								"{{adresy}}"
+							],
+							"path": [
+								"genres",
+								":gatunek",
+								"epochs",
+								":epoka",
+								"parent_books",
+								""
+							],
+							"variable": [
+								{
+									"key": "gatunek",
+									"value": "tragedia"
+								},
+								{
+									"key": "epoka",
+									"value": "barok"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Epoka i rodzaj",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Status code is 200\", function () {",
+									"    pm.response.to.have.status(200);",
+									"});"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "",
+								"value": "",
+								"type": "text",
+								"disabled": true
+							}
+						],
+						"url": {
+							"raw": "{{adresy}}/kinds/:rodzaj/epochs/:epoka/parent_books/",
+							"host": [
+								"{{adresy}}"
+							],
+							"path": [
+								"kinds",
+								":rodzaj",
+								"epochs",
+								":epoka",
+								"parent_books",
+								""
+							],
+							"variable": [
+								{
+									"key": "rodzaj",
+									"value": "dramat"
+								},
+								{
+									"key": "epoka",
+									"value": "barok"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Epoka i temat",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Status code is 404 (przypadek negatywny)\", function () {",
+									"    pm.response.to.have.status(404);",
+									"});"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "",
+								"value": "",
+								"type": "text",
+								"disabled": true
+							}
+						],
+						"url": {
+							"raw": "{{adresy}}/epochs/:epoka/themes/:temat/parent_books/",
+							"host": [
+								"{{adresy}}"
+							],
+							"path": [
+								"epochs",
+								":epoka",
+								"themes",
+								":temat",
+								"parent_books",
+								""
+							],
+							"variable": [
+								{
+									"key": "epoka",
+									"value": "oswiecenie"
+								},
+								{
+									"key": "temat",
+									"value": "aktor"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Epoka i kolekcja",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Status code is 404 (przykład negatywny)\", function () {",
+									"    pm.response.to.have.status(404);",
+									"});"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "",
+								"value": "",
+								"type": "text",
+								"disabled": true
+							}
+						],
+						"url": {
+							"raw": "{{adresy}}/epochs/:epoka/collections/:kolekcja/parent_books/",
+							"host": [
+								"{{adresy}}"
+							],
+							"path": [
+								"epochs",
+								":epoka",
+								"collections",
+								":kolekcja",
+								"parent_books",
+								""
+							],
+							"variable": [
+								{
+									"key": "epoka",
+									"value": "oswiecenie"
+								},
+								{
+									"key": "kolekcja",
+									"value": "alkohol"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Rodzaj i gatunek",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Status code is 200\", function () {",
+									"    pm.response.to.have.status(200);",
+									"});"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "",
+								"value": "",
+								"type": "text",
+								"disabled": true
+							}
+						],
+						"url": {
+							"raw": "{{adresy}}/genres/:gatunek/kinds/:rodzaj/parent_books/",
+							"host": [
+								"{{adresy}}"
+							],
+							"path": [
+								"genres",
+								":gatunek",
+								"kinds",
+								":rodzaj",
+								"parent_books",
+								""
+							],
+							"variable": [
+								{
+									"key": "gatunek",
+									"value": "komedia"
+								},
+								{
+									"key": "rodzaj",
+									"value": "dramat"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Temat i gatunek",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Status code is 404\", function () {",
+									"    pm.response.to.have.status(404);",
+									"});"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "",
+								"value": "",
+								"type": "text",
+								"disabled": true
+							}
+						],
+						"url": {
+							"raw": "{{adresy}}/genres/:gatunek/themes/:temat/parent_books/",
+							"host": [
+								"{{adresy}}"
+							],
+							"path": [
+								"genres",
+								":gatunek",
+								"themes",
+								":temat",
+								"parent_books",
+								""
+							],
+							"variable": [
+								{
+									"key": "gatunek",
+									"value": "komedia"
+								},
+								{
+									"key": "temat",
+									"value": "ameryka"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Kolekcja i gatunek",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Status code is 404\", function () {",
+									"    pm.response.to.have.status(404);",
+									"});"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "",
+								"value": "",
+								"type": "text",
+								"disabled": true
+							}
+						],
+						"url": {
+							"raw": "{{adresy}}/genres/:gatunek/collections/:kolekcja/parent_books/",
+							"host": [
+								"{{adresy}}"
+							],
+							"path": [
+								"genres",
+								":gatunek",
+								"collections",
+								":kolekcja",
+								"parent_books",
+								""
+							],
+							"variable": [
+								{
+									"key": "gatunek",
+									"value": "opowiadanie"
+								},
+								{
+									"key": "kolekcja",
+									"value": "boy"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Temat i rodzaj",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Status code is 404\", function () {",
+									"    pm.response.to.have.status(404);",
+									"});"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "",
+								"value": "",
+								"type": "text",
+								"disabled": true
+							}
+						],
+						"url": {
+							"raw": "{{adresy}}/kinds/:rodzaj/themes/:temat/parent_books/",
+							"host": [
+								"{{adresy}}"
+							],
+							"path": [
+								"kinds",
+								":rodzaj",
+								"themes",
+								":temat",
+								"parent_books",
+								""
+							],
+							"variable": [
+								{
+									"key": "rodzaj",
+									"value": "epika"
+								},
+								{
+									"key": "temat",
+									"value": "artysta"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Kolekcja i rodzaj",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Status code is 404\", function () {",
+									"    pm.response.to.have.status(404);",
+									"});"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "",
+								"value": "",
+								"type": "text",
+								"disabled": true
+							}
+						],
+						"url": {
+							"raw": "{{adresy}}/collections/:kolekcja/kinds/:rodzaj/parent_books/",
+							"host": [
+								"{{adresy}}"
+							],
+							"path": [
+								"collections",
+								":kolekcja",
+								"kinds",
+								":rodzaj",
+								"parent_books",
+								""
+							],
+							"variable": [
+								{
+									"key": "kolekcja",
+									"value": "boy"
+								},
+								{
+									"key": "rodzaj",
+									"value": "epika"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Temat i kolekcja",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Status code is 404\", function () {",
+									"    pm.response.to.have.status(404);",
+									"});"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "",
+								"value": "",
+								"type": "text",
+								"disabled": true
+							}
+						],
+						"url": {
+							"raw": "{{adresy}}/collections/:kolekcja/theme/:temat/parent_books/",
+							"host": [
+								"{{adresy}}"
+							],
+							"path": [
+								"collections",
+								":kolekcja",
+								"theme",
+								":temat",
+								"parent_books",
+								""
+							],
+							"variable": [
+								{
+									"key": "kolekcja",
+									"value": "brazylijskie-klimaty"
+								},
+								{
+									"key": "temat",
+									"value": "bieda"
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Przykłady złożone",
+			"item": [
+				{
+					"name": "Autor, epoka, gatunek, rodzaj, ksiazki",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Status code is 200\", function () {",
+									"    pm.response.to.have.status(200);",
+									"});"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "",
+								"value": "",
+								"type": "text",
+								"disabled": true
+							}
+						],
+						"url": {
+							"raw": "{{adresy}}/authors/:autor/epochs/:epoka/genres/:gatunek/kinds/:rodzaj/books/",
+							"host": [
+								"{{adresy}}"
+							],
+							"path": [
+								"authors",
+								":autor",
+								"epochs",
+								":epoka",
+								"genres",
+								":gatunek",
+								"kinds",
+								":rodzaj",
+								"books",
+								""
+							],
+							"variable": [
+								{
+									"key": "autor",
+									"value": "adam-mickiewicz"
+								},
+								{
+									"key": "epoka",
+									"value": "romantyzm"
+								},
+								{
+									"key": "gatunek",
+									"value": "wiersz"
+								},
+								{
+									"key": "rodzaj",
+									"value": "liryka"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Autor, epoka, gatunek, rodzaj, audiobooki",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Status code is 200\", function () {",
+									"    pm.response.to.have.status(200);",
+									"});"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "",
+								"value": "",
+								"type": "text",
+								"disabled": true
+							}
+						],
+						"url": {
+							"raw": "{{adresy}}/authors/:autor/epochs/:epoka/genres/:gatunek/kinds/:rodzaj/audiobooks/",
+							"host": [
+								"{{adresy}}"
+							],
+							"path": [
+								"authors",
+								":autor",
+								"epochs",
+								":epoka",
+								"genres",
+								":gatunek",
+								"kinds",
+								":rodzaj",
+								"audiobooks",
+								""
+							],
+							"variable": [
+								{
+									"key": "autor",
+									"value": "adam-mickiewicz"
+								},
+								{
+									"key": "epoka",
+									"value": "romantyzm"
+								},
+								{
+									"key": "gatunek",
+									"value": "wiersz"
+								},
+								{
+									"key": "rodzaj",
+									"value": "liryka"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Autor, epoka, gatunek, rodzaj, daisy",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Status code is 200\", function () {",
+									"    pm.response.to.have.status(200);",
+									"});"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "",
+								"value": "",
+								"type": "text",
+								"disabled": true
+							}
+						],
+						"url": {
+							"raw": "{{adresy}}/authors/:autor/epochs/:epoka/genres/:gatunek/kinds/:rodzaj/daisy/",
+							"host": [
+								"{{adresy}}"
+							],
+							"path": [
+								"authors",
+								":autor",
+								"epochs",
+								":epoka",
+								"genres",
+								":gatunek",
+								"kinds",
+								":rodzaj",
+								"daisy",
+								""
+							],
+							"variable": [
+								{
+									"key": "autor",
+									"value": "adam-mickiewicz"
+								},
+								{
+									"key": "epoka",
+									"value": "romantyzm"
+								},
+								{
+									"key": "gatunek",
+									"value": "wiersz"
+								},
+								{
+									"key": "rodzaj",
+									"value": "liryka"
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"key": "adresy",
+			"value": "https://wolnelektury.pl/api",
+			"type": "string"
+		}
+	]
+}
