@@ -1,0 +1,1665 @@
+{
+	"id": "bd452b12-95d5-4b97-996e-3457018c9203",
+	"name": "Wolne Lektury",
+	"timestamp": "2023-09-11T09:08:14.360Z",
+	"collection_id": "24398380-a92b56f5-389f-4aca-a341-f73400ddea6c",
+	"folder_id": 0,
+	"environment_id": "24398380-e05e983f-7b0a-47ff-a273-d088fbad615e",
+	"totalPass": 53,
+	"delay": 0,
+	"persist": true,
+	"status": "finished",
+	"startedAt": "2023-09-11T09:07:58.043Z",
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "d99c84f0-d05e-4c99-9ea2-4e188ba0f1e6",
+			"name": "Książka \"Chłopi\"",
+			"url": "https://wolnelektury.pl/api/books/chlopi/",
+			"time": 222,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				222
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "17c0f72a-2efb-4e94-bcc0-3295376695c4",
+			"name": "Książka \"Boska Komedia\"",
+			"url": "https://wolnelektury.pl/api/books/boska-komedia/",
+			"time": 72,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				72
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "17b24405-4fca-4e94-a364-a399b71953d8",
+			"name": "Autor Krzysztof Kamil Baczyński",
+			"url": "https://wolnelektury.pl/api/authors/krzysztof-kamil-baczynski",
+			"time": 23,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				23
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "9680957d-6b62-402d-ab84-367325d8670d",
+			"name": "Autor Hans Christian Andersen",
+			"url": "https://wolnelektury.pl/api/authors/hans-christian-andersen",
+			"time": 23,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				23
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "c4feefbf-6fb3-40e0-8a2a-14c2d5587317",
+			"name": "Epoka Akademizm",
+			"url": "https://wolnelektury.pl/api/epochs/akademizm/",
+			"time": 23,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				23
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "6d30f55f-5ddd-4c01-b91e-1650101b43c7",
+			"name": "Epoka Pozytywizm",
+			"url": "https://wolnelektury.pl/api/epochs/pozytywizm/",
+			"time": 23,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				23
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "f567ff91-9d68-49c3-bfb9-828841f23aa5",
+			"name": "Kategoria \"Artykuł Naukowy\"",
+			"url": "https://wolnelektury.pl/api/genres/artykul-naukowy/",
+			"time": 25,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				25
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "856cbf39-c1f5-4fe8-a274-c66725cf1da7",
+			"name": "Kategoria \"Bajka\"",
+			"url": "https://wolnelektury.pl/api/genres/bajka/",
+			"time": 25,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				25
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "b7ea51a0-9139-4348-90e3-c10d648a03f6",
+			"name": "Rodzaj \"dramat\"",
+			"url": "https://wolnelektury.pl/api/kinds/dramat/",
+			"time": 25,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				25
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "d504197d-049a-4b02-aa07-5a1cd3c554d0",
+			"name": "Rodzaj \"malarstwo\"",
+			"url": "https://wolnelektury.pl/api/kinds/malarstwo/",
+			"time": 23,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				23
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "7962b7b0-2ba5-4ae0-b314-461d27c79559",
+			"name": "Temat \"ameryka\"",
+			"url": "https://wolnelektury.pl/api/themes/ameryka/",
+			"time": 23,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				23
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "bae4ac73-aaa2-4d1e-b91e-a1a483ade5cb",
+			"name": "Temat \"Bóg\"",
+			"url": "https://wolnelektury.pl/api/themes/bog/",
+			"time": 26,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				26
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "f52f63a5-98ae-4774-834f-f945485e75a2",
+			"name": "Kolekcja \"Kolekcja zimowa\"",
+			"url": "https://wolnelektury.pl/api/collections/kolekcja-zimowa-dla-starszych-czytelnikow/",
+			"time": 337,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				337
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "af7a51b0-7d8d-4bf6-a6fd-2c0a166cac13",
+			"name": "Kolekcja \"Stanisław Lem poleca\"",
+			"url": "https://wolnelektury.pl/api/collections/stanislaw-lem-poleca/",
+			"time": 832,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				832
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "295ca39c-c251-4d29-8f60-99531ede4eba",
+			"name": "Książka i daisy",
+			"url": "https://wolnelektury.pl/api/daisy/books/",
+			"time": 166,
+			"responseCode": {
+				"code": 404,
+				"name": "Not Found"
+			},
+			"tests": {
+				"Status code is 404 (przypadek negatywny)": true
+			},
+			"testPassFailCounts": {
+				"Status code is 404 (przypadek negatywny)": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				166
+			],
+			"allTests": [
+				{
+					"Status code is 404 (przypadek negatywny)": true
+				}
+			]
+		},
+		{
+			"id": "3f24a1fd-fb8f-4776-ba47-5494747ace26",
+			"name": "Książka i audiobook",
+			"url": "https://wolnelektury.pl/api/audiobooks/books/",
+			"time": 21,
+			"responseCode": {
+				"code": 404,
+				"name": "Not Found"
+			},
+			"tests": {
+				"Status code is 404 (przypadek negatywny)": true
+			},
+			"testPassFailCounts": {
+				"Status code is 404 (przypadek negatywny)": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				21
+			],
+			"allTests": [
+				{
+					"Status code is 404 (przypadek negatywny)": true
+				}
+			]
+		},
+		{
+			"id": "811d6316-19b0-4afa-9dbd-fee9ac981b93",
+			"name": "Książka i epoka",
+			"url": "https://wolnelektury.pl/api/epochs/barok/books/",
+			"time": 892,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				892
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "b721fe18-a5e5-440a-9f01-fbbc790dc181",
+			"name": "Książka i gatunki",
+			"url": "https://wolnelektury.pl/api/genres/opowiadanie/books/",
+			"time": 2051,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				2051
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "22a0424a-fe90-4579-8455-8d38dc56a053",
+			"name": "Książka i rodzaje",
+			"url": "https://wolnelektury.pl/api/kinds/dramat/books/",
+			"time": 872,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				872
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "e7a11344-05dc-45b1-817c-25f85511ce08",
+			"name": "Książka i temat",
+			"url": "https://wolnelektury.pl/api/theme/aktor/parent_books/",
+			"time": 13,
+			"responseCode": {
+				"code": 404,
+				"name": "Not Found"
+			},
+			"tests": {
+				"Status code is 404 (przypadek negatywny)": true
+			},
+			"testPassFailCounts": {
+				"Status code is 404 (przypadek negatywny)": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				13
+			],
+			"allTests": [
+				{
+					"Status code is 404 (przypadek negatywny)": true
+				}
+			]
+		},
+		{
+			"id": "a199bc66-cca9-4af4-96a9-da07f2bf7577",
+			"name": "Książka i kolekcja",
+			"url": "https://wolnelektury.pl/api/collections/boy/books/",
+			"time": 17,
+			"responseCode": {
+				"code": 404,
+				"name": "Not Found"
+			},
+			"tests": {
+				"Status code is 404 (przypadek negatywny)": true
+			},
+			"testPassFailCounts": {
+				"Status code is 404 (przypadek negatywny)": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				17
+			],
+			"allTests": [
+				{
+					"Status code is 404 (przypadek negatywny)": true
+				}
+			]
+		},
+		{
+			"id": "c238553e-87fd-47ec-b82d-987026063138",
+			"name": "Autor i książki",
+			"url": "https://wolnelektury.pl/api/authors/honore-de-balzac/parent_books/",
+			"time": 130,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				130
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "c5c9726d-160f-4937-b699-9a0078003be1",
+			"name": "Autor i audiobooki",
+			"url": "https://wolnelektury.pl/api/authors/honore-de-balzac/audiobooks",
+			"time": 109,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				109
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "dc9c61bb-c843-4b17-a3e9-28240dc99094",
+			"name": "Autor i daisy",
+			"url": "https://wolnelektury.pl/api/authors/honore-de-balzac/daisy/",
+			"time": 82,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				82
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "c81f7508-7d36-460f-a304-bf985de6eb42",
+			"name": "Autor i epoka",
+			"url": "https://wolnelektury.pl/api/authors/honore-de-balzac/epochs/romantyzm/parent_books/",
+			"time": 157,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				157
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "f4a03c05-5a72-4abc-a340-c406bb7c9e0c",
+			"name": "Autor i gatunek",
+			"url": "https://wolnelektury.pl/api/authors/honore-de-balzac/genres/powiesc-obyczajowa/parent_books/",
+			"time": 145,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				145
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "17589903-897c-42df-a28e-4c2010e069db",
+			"name": "Autor i rodzaje",
+			"url": "https://wolnelektury.pl/api/authors/honore-de-balzac/kinds/epika/parent_books/",
+			"time": 163,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				163
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "a5c1f95e-1ffc-4aee-8c38-12e13313e611",
+			"name": "Autor i temat",
+			"url": "https://wolnelektury.pl/api/authors/fiodor-dostojewski/themes/aktor/parent_books/",
+			"time": 23,
+			"responseCode": {
+				"code": 404,
+				"name": "Not Found"
+			},
+			"tests": {
+				"Status code is 404 (przypadek negatywny)": true
+			},
+			"testPassFailCounts": {
+				"Status code is 404 (przypadek negatywny)": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				23
+			],
+			"allTests": [
+				{
+					"Status code is 404 (przypadek negatywny)": true
+				}
+			]
+		},
+		{
+			"id": "b9f3720f-905f-47b6-b513-0221f4f2ced7",
+			"name": "Autor i kolekcja",
+			"url": "https://wolnelektury.pl/api/authors/fiodor-dostojewski/collections/52-wolne-ksiazki/parent_books/",
+			"time": 21,
+			"responseCode": {
+				"code": 404,
+				"name": "Not Found"
+			},
+			"tests": {
+				"Status code is 404 (przypadek negatywny)": true
+			},
+			"testPassFailCounts": {
+				"Status code is 404 (przypadek negatywny)": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				21
+			],
+			"allTests": [
+				{
+					"Status code is 404 (przypadek negatywny)": true
+				}
+			]
+		},
+		{
+			"id": "b8edca1e-7a85-4fff-8144-0cd33d064746",
+			"name": "Audiobooki i daisy",
+			"url": "https://wolnelektury.pl/api/daisy/audiobooks/",
+			"time": 152,
+			"responseCode": {
+				"code": 404,
+				"name": "Not Found"
+			},
+			"tests": {
+				"Status code is 404 (Przypadek negatywny)": true
+			},
+			"testPassFailCounts": {
+				"Status code is 404 (Przypadek negatywny)": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				152
+			],
+			"allTests": [
+				{
+					"Status code is 404 (Przypadek negatywny)": true
+				}
+			]
+		},
+		{
+			"id": "41569d7f-8b38-4834-ab72-0ff5519b1747",
+			"name": "Audiobooki i epoka",
+			"url": "https://wolnelektury.pl/api/epochs/pozytywizm/audiobooks/",
+			"time": 590,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				590
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "ea3a6550-63db-4b2a-87dc-424a0925f772",
+			"name": "Audiobooki i gatunek",
+			"url": "https://wolnelektury.pl/api/genres/basn/audiobooks/",
+			"time": 311,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				311
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "89b1d2f0-f5a3-4ae6-8e56-ccdb75934434",
+			"name": "Audiobooki i rodzaj",
+			"url": "https://wolnelektury.pl/api/kinds/epika/audiobooks/",
+			"time": 3057,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				3057
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "beabb0b1-fa1f-42e2-aa46-684aa06f4e92",
+			"name": "Audiobooki i temat",
+			"url": "https://wolnelektury.pl/api/themes/bitwa/audiobooks/",
+			"time": 15,
+			"responseCode": {
+				"code": 404,
+				"name": "Not Found"
+			},
+			"tests": {
+				"Status code is 404 (Przypadek negatywny)": true
+			},
+			"testPassFailCounts": {
+				"Status code is 404 (Przypadek negatywny)": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				15
+			],
+			"allTests": [
+				{
+					"Status code is 404 (Przypadek negatywny)": true
+				}
+			]
+		},
+		{
+			"id": "74e9d9af-c4b2-497d-9534-b2e8d9a1cba4",
+			"name": "Audiobooki i kolekcja",
+			"url": "https://wolnelektury.pl/api/collections/boy/audiobooks/",
+			"time": 13,
+			"responseCode": {
+				"code": 404,
+				"name": "Not Found"
+			},
+			"tests": {
+				"Status code is 404 (przypadek negatywny)": true
+			},
+			"testPassFailCounts": {
+				"Status code is 404 (przypadek negatywny)": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				13
+			],
+			"allTests": [
+				{
+					"Status code is 404 (przypadek negatywny)": true
+				}
+			]
+		},
+		{
+			"id": "46fc3d03-fc72-4821-9e3f-60e50b217c11",
+			"name": "Epoka i daisy",
+			"url": "https://wolnelektury.pl/api/epochs/barok/daisy/",
+			"time": 57,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				57
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "616dfcee-8edb-40a9-9ab6-49c5d83bff9b",
+			"name": "Gatunek i daisy",
+			"url": "https://wolnelektury.pl/api/genres/dialog/daisy/",
+			"time": 40,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				40
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "30a00776-9e2a-4795-a154-a6e0c35a693b",
+			"name": "Rodzaj i daisy",
+			"url": "https://wolnelektury.pl/api/kinds/epika/daisy/",
+			"time": 1082,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				1082
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "c22da0ed-808d-4b53-98fa-8982d23dc2db",
+			"name": "Temat i daisy",
+			"url": "https://wolnelektury.pl/api/themes/alkohol/daisy/",
+			"time": 12,
+			"responseCode": {
+				"code": 404,
+				"name": "Not Found"
+			},
+			"tests": {
+				"Status code is 404 (przypadek negatywny)": true
+			},
+			"testPassFailCounts": {
+				"Status code is 404 (przypadek negatywny)": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				12
+			],
+			"allTests": [
+				{
+					"Status code is 404 (przypadek negatywny)": true
+				}
+			]
+		},
+		{
+			"id": "7a73165a-dcf9-40de-8f57-42502ef0d13b",
+			"name": "Kolekcja i daisy",
+			"url": "https://wolnelektury.pl/api/collections/fantastyka/daisy/",
+			"time": 13,
+			"responseCode": {
+				"code": 404,
+				"name": "Not Found"
+			},
+			"tests": {
+				"Status code is 404 (przypadek negatywny)": true
+			},
+			"testPassFailCounts": {
+				"Status code is 404 (przypadek negatywny)": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				13
+			],
+			"allTests": [
+				{
+					"Status code is 404 (przypadek negatywny)": true
+				}
+			]
+		},
+		{
+			"id": "41032a61-7f3a-4212-9382-49d41fc145da",
+			"name": "Epoka i gatunek",
+			"url": "https://wolnelektury.pl/api/genres/tragedia/epochs/barok/parent_books/",
+			"time": 66,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				66
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "2910741a-8b40-4639-9854-53a00b6e079a",
+			"name": "Epoka i rodzaj",
+			"url": "https://wolnelektury.pl/api/kinds/dramat/epochs/barok/parent_books/",
+			"time": 112,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				112
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "87add809-23c0-4896-a1c7-1e350ab57ae5",
+			"name": "Epoka i temat",
+			"url": "https://wolnelektury.pl/api/epochs/oswiecenie/themes/aktor/parent_books/",
+			"time": 21,
+			"responseCode": {
+				"code": 404,
+				"name": "Not Found"
+			},
+			"tests": {
+				"Status code is 404 (przypadek negatywny)": true
+			},
+			"testPassFailCounts": {
+				"Status code is 404 (przypadek negatywny)": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				21
+			],
+			"allTests": [
+				{
+					"Status code is 404 (przypadek negatywny)": true
+				}
+			]
+		},
+		{
+			"id": "c649652f-6d20-4d10-a6b1-d28929facb8d",
+			"name": "Epoka i kolekcja",
+			"url": "https://wolnelektury.pl/api/epochs/oswiecenie/collections/alkohol/parent_books/",
+			"time": 21,
+			"responseCode": {
+				"code": 404,
+				"name": "Not Found"
+			},
+			"tests": {
+				"Status code is 404 (przykład negatywny)": true
+			},
+			"testPassFailCounts": {
+				"Status code is 404 (przykład negatywny)": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				21
+			],
+			"allTests": [
+				{
+					"Status code is 404 (przykład negatywny)": true
+				}
+			]
+		},
+		{
+			"id": "a5ac183c-5b16-45ca-bece-6cbf92275ff4",
+			"name": "Rodzaj i gatunek",
+			"url": "https://wolnelektury.pl/api/genres/komedia/kinds/dramat/parent_books/",
+			"time": 221,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				221
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "d140786f-7350-4451-98b0-634fad44ef0e",
+			"name": "Temat i gatunek",
+			"url": "https://wolnelektury.pl/api/genres/komedia/themes/ameryka/parent_books/",
+			"time": 20,
+			"responseCode": {
+				"code": 404,
+				"name": "Not Found"
+			},
+			"tests": {
+				"Status code is 404": true
+			},
+			"testPassFailCounts": {
+				"Status code is 404": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				20
+			],
+			"allTests": [
+				{
+					"Status code is 404": true
+				}
+			]
+		},
+		{
+			"id": "9d33fc66-8058-4eb9-adcc-f8f75b2bd2ce",
+			"name": "Kolekcja i gatunek",
+			"url": "https://wolnelektury.pl/api/genres/opowiadanie/collections/boy/parent_books/",
+			"time": 20,
+			"responseCode": {
+				"code": 404,
+				"name": "Not Found"
+			},
+			"tests": {
+				"Status code is 404": true
+			},
+			"testPassFailCounts": {
+				"Status code is 404": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				20
+			],
+			"allTests": [
+				{
+					"Status code is 404": true
+				}
+			]
+		},
+		{
+			"id": "905c1e7f-490d-42c0-963a-25ec71696c3f",
+			"name": "Temat i rodzaj",
+			"url": "https://wolnelektury.pl/api/kinds/epika/themes/artysta/parent_books/",
+			"time": 23,
+			"responseCode": {
+				"code": 404,
+				"name": "Not Found"
+			},
+			"tests": {
+				"Status code is 404": true
+			},
+			"testPassFailCounts": {
+				"Status code is 404": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				23
+			],
+			"allTests": [
+				{
+					"Status code is 404": true
+				}
+			]
+		},
+		{
+			"id": "c2daa629-2237-4d4c-b67e-aa5b6f851803",
+			"name": "Kolekcja i rodzaj",
+			"url": "https://wolnelektury.pl/api/collections/boy/kinds/epika/parent_books/",
+			"time": 15,
+			"responseCode": {
+				"code": 404,
+				"name": "Not Found"
+			},
+			"tests": {
+				"Status code is 404": true
+			},
+			"testPassFailCounts": {
+				"Status code is 404": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				15
+			],
+			"allTests": [
+				{
+					"Status code is 404": true
+				}
+			]
+		},
+		{
+			"id": "b8e081a8-4f51-40f5-9635-b697222a2a76",
+			"name": "Temat i kolekcja",
+			"url": "https://wolnelektury.pl/api/collections/brazylijskie-klimaty/theme/bieda/parent_books/",
+			"time": 13,
+			"responseCode": {
+				"code": 404,
+				"name": "Not Found"
+			},
+			"tests": {
+				"Status code is 404": true
+			},
+			"testPassFailCounts": {
+				"Status code is 404": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				13
+			],
+			"allTests": [
+				{
+					"Status code is 404": true
+				}
+			]
+		},
+		{
+			"id": "fb7c91e4-5643-41dd-8e16-771618bc1cb2",
+			"name": "Autor, epoka, gatunek, rodzaj, ksiazki",
+			"url": "https://wolnelektury.pl/api/authors/adam-mickiewicz/epochs/romantyzm/genres/wiersz/kinds/liryka/books/",
+			"time": 668,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				668
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "78e819a2-06c7-4549-8fc5-b7cb3c7a1815",
+			"name": "Autor, epoka, gatunek, rodzaj, audiobooki",
+			"url": "https://wolnelektury.pl/api/authors/adam-mickiewicz/epochs/romantyzm/genres/wiersz/kinds/liryka/audiobooks/",
+			"time": 58,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				58
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "ba798615-969c-44a4-b927-e5feecac8798",
+			"name": "Autor, epoka, gatunek, rodzaj, daisy",
+			"url": "https://wolnelektury.pl/api/authors/adam-mickiewicz/epochs/romantyzm/genres/wiersz/kinds/liryka/daisy/",
+			"time": 59,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				59
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 13223,
+	"collection": {
+		"requests": [
+			{
+				"id": "d99c84f0-d05e-4c99-9ea2-4e188ba0f1e6",
+				"method": "GET"
+			},
+			{
+				"id": "17c0f72a-2efb-4e94-bcc0-3295376695c4",
+				"method": "GET"
+			},
+			{
+				"id": "17b24405-4fca-4e94-a364-a399b71953d8",
+				"method": "GET"
+			},
+			{
+				"id": "9680957d-6b62-402d-ab84-367325d8670d",
+				"method": "GET"
+			},
+			{
+				"id": "c4feefbf-6fb3-40e0-8a2a-14c2d5587317",
+				"method": "GET"
+			},
+			{
+				"id": "6d30f55f-5ddd-4c01-b91e-1650101b43c7",
+				"method": "GET"
+			},
+			{
+				"id": "f567ff91-9d68-49c3-bfb9-828841f23aa5",
+				"method": "GET"
+			},
+			{
+				"id": "856cbf39-c1f5-4fe8-a274-c66725cf1da7",
+				"method": "GET"
+			},
+			{
+				"id": "b7ea51a0-9139-4348-90e3-c10d648a03f6",
+				"method": "GET"
+			},
+			{
+				"id": "d504197d-049a-4b02-aa07-5a1cd3c554d0",
+				"method": "GET"
+			},
+			{
+				"id": "7962b7b0-2ba5-4ae0-b314-461d27c79559",
+				"method": "GET"
+			},
+			{
+				"id": "bae4ac73-aaa2-4d1e-b91e-a1a483ade5cb",
+				"method": "GET"
+			},
+			{
+				"id": "f52f63a5-98ae-4774-834f-f945485e75a2",
+				"method": "GET"
+			},
+			{
+				"id": "af7a51b0-7d8d-4bf6-a6fd-2c0a166cac13",
+				"method": "GET"
+			},
+			{
+				"id": "295ca39c-c251-4d29-8f60-99531ede4eba",
+				"method": "GET"
+			},
+			{
+				"id": "3f24a1fd-fb8f-4776-ba47-5494747ace26",
+				"method": "GET"
+			},
+			{
+				"id": "811d6316-19b0-4afa-9dbd-fee9ac981b93",
+				"method": "GET"
+			},
+			{
+				"id": "b721fe18-a5e5-440a-9f01-fbbc790dc181",
+				"method": "GET"
+			},
+			{
+				"id": "22a0424a-fe90-4579-8455-8d38dc56a053",
+				"method": "GET"
+			},
+			{
+				"id": "e7a11344-05dc-45b1-817c-25f85511ce08",
+				"method": "GET"
+			},
+			{
+				"id": "a199bc66-cca9-4af4-96a9-da07f2bf7577",
+				"method": "GET"
+			},
+			{
+				"id": "c238553e-87fd-47ec-b82d-987026063138",
+				"method": "GET"
+			},
+			{
+				"id": "c5c9726d-160f-4937-b699-9a0078003be1",
+				"method": "GET"
+			},
+			{
+				"id": "dc9c61bb-c843-4b17-a3e9-28240dc99094",
+				"method": "GET"
+			},
+			{
+				"id": "c81f7508-7d36-460f-a304-bf985de6eb42",
+				"method": "GET"
+			},
+			{
+				"id": "f4a03c05-5a72-4abc-a340-c406bb7c9e0c",
+				"method": "GET"
+			},
+			{
+				"id": "17589903-897c-42df-a28e-4c2010e069db",
+				"method": "GET"
+			},
+			{
+				"id": "a5c1f95e-1ffc-4aee-8c38-12e13313e611",
+				"method": "GET"
+			},
+			{
+				"id": "b9f3720f-905f-47b6-b513-0221f4f2ced7",
+				"method": "GET"
+			},
+			{
+				"id": "b8edca1e-7a85-4fff-8144-0cd33d064746",
+				"method": "GET"
+			},
+			{
+				"id": "41569d7f-8b38-4834-ab72-0ff5519b1747",
+				"method": "GET"
+			},
+			{
+				"id": "ea3a6550-63db-4b2a-87dc-424a0925f772",
+				"method": "GET"
+			},
+			{
+				"id": "89b1d2f0-f5a3-4ae6-8e56-ccdb75934434",
+				"method": "GET"
+			},
+			{
+				"id": "beabb0b1-fa1f-42e2-aa46-684aa06f4e92",
+				"method": "GET"
+			},
+			{
+				"id": "74e9d9af-c4b2-497d-9534-b2e8d9a1cba4",
+				"method": "GET"
+			},
+			{
+				"id": "46fc3d03-fc72-4821-9e3f-60e50b217c11",
+				"method": "GET"
+			},
+			{
+				"id": "616dfcee-8edb-40a9-9ab6-49c5d83bff9b",
+				"method": "GET"
+			},
+			{
+				"id": "30a00776-9e2a-4795-a154-a6e0c35a693b",
+				"method": "GET"
+			},
+			{
+				"id": "c22da0ed-808d-4b53-98fa-8982d23dc2db",
+				"method": "GET"
+			},
+			{
+				"id": "7a73165a-dcf9-40de-8f57-42502ef0d13b",
+				"method": "GET"
+			},
+			{
+				"id": "41032a61-7f3a-4212-9382-49d41fc145da",
+				"method": "GET"
+			},
+			{
+				"id": "2910741a-8b40-4639-9854-53a00b6e079a",
+				"method": "GET"
+			},
+			{
+				"id": "87add809-23c0-4896-a1c7-1e350ab57ae5",
+				"method": "GET"
+			},
+			{
+				"id": "c649652f-6d20-4d10-a6b1-d28929facb8d",
+				"method": "GET"
+			},
+			{
+				"id": "a5ac183c-5b16-45ca-bece-6cbf92275ff4",
+				"method": "GET"
+			},
+			{
+				"id": "d140786f-7350-4451-98b0-634fad44ef0e",
+				"method": "GET"
+			},
+			{
+				"id": "9d33fc66-8058-4eb9-adcc-f8f75b2bd2ce",
+				"method": "GET"
+			},
+			{
+				"id": "905c1e7f-490d-42c0-963a-25ec71696c3f",
+				"method": "GET"
+			},
+			{
+				"id": "c2daa629-2237-4d4c-b67e-aa5b6f851803",
+				"method": "GET"
+			},
+			{
+				"id": "b8e081a8-4f51-40f5-9635-b697222a2a76",
+				"method": "GET"
+			},
+			{
+				"id": "fb7c91e4-5643-41dd-8e16-771618bc1cb2",
+				"method": "GET"
+			},
+			{
+				"id": "78e819a2-06c7-4549-8fc5-b7cb3c7a1815",
+				"method": "GET"
+			},
+			{
+				"id": "ba798615-969c-44a4-b927-e5feecac8798",
+				"method": "GET"
+			}
+		]
+	}
+}
